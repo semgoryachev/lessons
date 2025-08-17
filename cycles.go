@@ -14,4 +14,16 @@ func main() {
 		f.Printf("Index: %d, Value: %d\n", index, value)
 	}
 
+	//cycle with continue and break
+
+	for j := 1; j <= 10; j++ {
+		if j%2 == 0 {
+			continue
+		}
+		f.Printf("Odd number: %d\n", j)
+		if j == 5 {
+			break
+		}
+	}
+
 }
